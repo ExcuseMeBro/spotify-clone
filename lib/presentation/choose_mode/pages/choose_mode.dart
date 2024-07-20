@@ -8,7 +8,7 @@ import 'package:spotify/core/configs/assets/app_vectors.dart';
 import 'package:spotify/core/configs/theme/app_colors.dart';
 
 class ChooseModePage extends StatelessWidget {
-  const ChooseModePage({Key? key}) : super(key: key);
+  const ChooseModePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -69,7 +69,7 @@ class ChooseModePage extends StatelessWidget {
                               )),
                         ),
                         SizedBox(height: 15),
-                        Text(
+                        const Text(
                           'Dark Mode',
                           style: TextStyle(
                               fontWeight: FontWeight.w500,
@@ -78,7 +78,7 @@ class ChooseModePage extends StatelessWidget {
                         )
                       ],
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 40,
                     ),
                     Column(
@@ -99,8 +99,8 @@ class ChooseModePage extends StatelessWidget {
                                 ),
                               )),
                         ),
-                        SizedBox(height: 15),
-                        Text(
+                        const SizedBox(height: 15),
+                        const Text(
                           'Light Mode',
                           style: TextStyle(
                               fontWeight: FontWeight.w500,
